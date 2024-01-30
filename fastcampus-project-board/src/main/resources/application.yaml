@@ -32,5 +32,6 @@ spring:
   thymeleaf:
     prefix: classpath:templates/
     suffix: .html
-
+  thymeleaf3:
+    decoupled-logic: true
 
