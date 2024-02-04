@@ -20,7 +20,7 @@ import java.time.LocalDate;
 @ToString
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
-public class AuditingFields {
+public abstract class AuditingFields {
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) //yyyy-MM-ddTHH:mm:ss.SSSZ 형식으로 표현
     @CreatedDate

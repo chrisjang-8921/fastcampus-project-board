@@ -1,3 +1,8 @@
+
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+('uno', 'asdf1234', 'Uno', 'uno@mail.com', 'I am Uno.', '2024-01-02', 'uno', '2024-01-02', 'uno')
+;
+
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Quisque ut erat.', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', null, 'Sallyann', 'Sylvia', '2023-11-25', '2023-05-01');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Red', 'Keane', 'Augy', '2023-08-26', '2023-07-14');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Quisque ut erat.', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Maroon', 'Rubie', 'Nissa', '2023-04-29', '2023-04-09');
