@@ -12,7 +12,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .authorizeHttpRequests(auth -> auth.anyRequest().permitAll())
-                .formLogin()
+                .formLogin()//TODO: 부트 버전에 맞게 코드 수정 요망
                 .and()
                 .build();
     }
